@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+</head>
+<link rel="stylesheet" href="psswd.css">
+<body>
+    <div class="container">
+        <h2>Forgot your Spell?</h2>
+        <h4>Try this magical potion...</h4>
+        <form>
+            <input type="radio" value="Username" name="forgot">Username
+            <input type="radio" value="Password" name="forgot">Password
+            <br><br>
+            <input type="text" name = "email" placeholder="Enter your email" required>
+            <input type="text" name="contact" placeholder="Phone number" required>
+            <br><br>
+            <label for="secQues">Secret Question :
+                <select name="secQues" required>Secret Question
+                    <option value="Select">Select</option>
+                    <option value="Pet name">Pet name</option>
+                    <option value="Favourite place">Favourite place</option>
+                    <option value="Where did you meet your partner?">Where did you meet your partner?</option>
+                    <option value="Name of your neighbour">Name of your neighbour</option>
+                    <option value="Favourite book name">Favourite book name</option>
+                </select>
+                <input type="text" name="secQues" id="ans" placeholder="Answer" required>
+            </label>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <p id = "username">Username : </p>
+        <p id = "password">Password : </p>
+    </div>
+    <script src = "psswd.js"></script>
+</body>
+</html>

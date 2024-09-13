@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+</head>
+<link rel="stylesheet" href="signPage.css">
+<body>
+    <h1>Create a Account</h2>
+    <br><br>
+    <form>
+        <input type="text" placeholder=" First Name" name = "firstName" required>
+        <input type="text" placeholder=" Last Name" name = "lastName" required id = "name">
+        <br>
+        <div class="dropdown">
+            <select name="Gender" id="gender" class = "gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+            <label for="date" id = "dob">DOB :
+                <input type="date" min="1880-01-01" max="2024-12-31" name = "DOB">
+            </label>
+        </div>
+        <br>
+        <input type="text" placeholder=" Email" name = "email" required>
+        <br><br>
+        <input type="text" placeholder=" Create a username" name = "username" required>
+        <p>(Username should only contain alphabets - _ . and numbers.)</p>
+        <input type="password" placeholder=" Create password" name = "password" required>
+        <br><br>
+        <input type="password" placeholder=" Re-enter password" name = "rePassword" required> <p class="hide">Passwords don't match.</p>
+        <br><br>
+        <label id = "cont" for="contact">Contact Number :
+            <input type="text" placeholder=" Phone Number" value="+91 " name = "contact" required>
+        </label>
+        <br>
+        <button type = "submit">Submit</button>
+        <button type = "reset">Reset</button>
+    </form>
+    <script src = "submit.js"></script>
+</body>
+</html>

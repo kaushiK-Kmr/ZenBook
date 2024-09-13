@@ -1,0 +1,28 @@
+body{
+    background-image: url(https://images7.alphacoders.com/545/545713.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+
+.container{
+    margin: 32vh 0 0 10vh;
+    background-color: rgba(54, 192, 0, 0.705);
+    width: 60%;
+    padding: 0.7rem;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 1rem black;
+}
+
+input{
+    margin-bottom: 1rem;
+}
+
+select{
+    margin-bottom: 1rem;
+}
+
+#ans{
+    width: 98%;
+}
