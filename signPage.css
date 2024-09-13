@@ -1,14 +1,16 @@
 body{
-    background-image: url("https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg");
+    background-image: url(SignUp_img.png);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
     color: aliceblue;
 }
 
 form{
     margin-left: 8vh;
     font-size: 1.5rem;
+    font-family: Arial, sans-serif;
 }
 
 input{
@@ -19,7 +21,7 @@ input{
 }
 
 p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-top: 0.3rem;
 }
 
@@ -46,8 +48,8 @@ p{
     font-size: 1rem;
 }
 
-#gender{
-    height: 4.5vh;
+select{
+    height: 4vh;
     border-radius: 0.5rem;
     border: 0;
 }
@@ -59,5 +61,10 @@ button{
     color: azure;
     background-color: rgb(29, 29, 170);
     border: none;
-    margin: 1.5rem 1.5rem 1rem 0;
+    margin: 1.5rem 1.5rem 0 0;
+}
+
+#ans{
+    margin-top: 0.8rem;
+    width: 50%;
 }

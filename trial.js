@@ -11,8 +11,7 @@ form2.addEventListener("submit", function(event) {
     event.preventDefault();
 
     if(username.value === user && spell.value === pass) {
-    let bhaalu = localStorage.getItem('contact');
-    console.log(bhaalu);
+    localStorage.getItem('secQues');
 }
 username.value = "";
 spell.value = "";
