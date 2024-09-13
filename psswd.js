@@ -24,11 +24,13 @@ butt.addEventListener("click", function(event) {
                     passw.innerText = passWord;
         }
         else {
-            user.innerText = "Wrong Input!"
+            user.innerText = "Wrong Input!";
+            passw.innerText = "";
         }
     }
     else 
     {
-        user.innerText = "Wrong Input!"
+        user.innerText = "Wrong Input!";
+        passw.innerText = "";
     }
 });
