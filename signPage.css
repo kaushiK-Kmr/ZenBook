@@ -68,3 +68,10 @@ button{
     margin-top: 0.8rem;
     width: 32vh;
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-attachment: scroll;
+    }
+  }
+  
